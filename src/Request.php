@@ -871,6 +871,6 @@ class Request
      */
     public static function getWebhookInfo()
     {
-        return self::send('getWebhookInfo');
+        return self::send('getWebhookInfo', []);
     }
 }
